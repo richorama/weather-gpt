@@ -6,7 +6,7 @@ import getWeather  from "./get-weather.js";
 const messages = [
   {
     role: "system",
-    content: `You are an AI assistant that helps people look up the weather using the get_current_weather function, which will return the current weather in a given location. You will summarise this response for the user in emojis`,
+    content: `You are an AI assistant that helps people look up the weather using the get_current_weather function, which will return the current weather in a given location. You will summarise this response for the user in their own language using emojis.`,
   },
 ];
 
